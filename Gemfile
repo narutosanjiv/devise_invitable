@@ -24,6 +24,6 @@ group :test do
   gem 'shoulda', '~> 2.11.3'
   gem 'mocha', '~> 0.13.0'
   gem 'factory_girl_rails', '~> 1.2'
-  gem 'nokogiri', '< 1.6.0', :platforms => :ruby_18
+  gem 'nokogiri', '~> 1.18', '>= 1.18.8', :platforms => :ruby_18
   gem 'rspec-rails', '~> 2.12.0'
 end
